@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.card {
+    background-color: #fff; /* Warna latar belakang card */
+    border-radius: 10px; /* Sudut membulat pada card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    max-width: 300px; /* Lebar maksimum card */
+    margin: 0 auto; /* Posisikan card di tengah halaman */
+    padding: 20px; /* Ruang dalam card */
+    text-align: center; /* Pusatkan teks */
+}
+
+.profileimage img {
+    width: 150px; /* Lebar foto profil */
+    height: 150px; /* Tinggi foto profil */
+    object-fit: cover; /* Hindari perubahan aspek rasio gambar */
+    border-radius: 50%; /* Membuat foto profil berbentuk lingkaran */
+}
+
+
+
+.pfp {
+  border-radius: 35em;
+  fill: white;
+}
+
+.Name {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.socialbar {
+  background-color: #191919;
+  border-radius: 3em;
+  width: 90%;
+  padding: 14px;
+  margin-top: 15px;
+  color: white;
+  box-shadow: 3px 3px 15px rgb(0, 0, 0),
+                   -3px -3px 15px rgb(58, 58, 58);
+}
+
+.card a {
+  transition: 0.4s;
+  color: white
+}
+
+#github:hover {
+  color: #c9510c;
+}
+
+#instagram:hover {
+  color: #d62976;
+}
+
+#facebook:hover {
+  color: #3b5998;
+}
+
+#twitter:hover {
+  color: #00acee;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-section p {
+    font-size: 0.9em;
+}
+
+.footer-section.social a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-section.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: #ccc;
+}
+
